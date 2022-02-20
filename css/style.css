@@ -1,0 +1,176 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	background-color: #e8e8e8;
+}
+.content {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 70px 0 104px 0;
+	max-width: 841px;
+	margin: 0px auto;
+    background-color: #dde5e6;
+}
+.con {
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #000000; 
+   position: relative; 
+   top: 312px;
+   right: 225px;
+   display: inline;
+}
+.content-top {
+    margin: 0 0 90px 0;
+    /*background-color: #80b7b3;*/
+}
+.content-top-category {
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+.content-top-info-list li {
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #273d46;
+}
+.content-top-info-list li:hover {
+    color: #d55a5a;
+}
+.content-top-info-list li:before {
+    content: url(../img/icons/check_green.png)'';
+	display: inline-block;
+	margin: 0px 10px 0px 0px;
+}
+.content-top-info-list li:hover:before {
+    content: url(../img/icons/check_red.png)'';
+}
+.content-top-info-list li:nth-child(1) {
+    text-decoration: line-through;
+ }
+.content-top-info-list li:nth-child(2) {
+    font-weight: 700;
+    }
+.content-top-info-list li:nth-child(3) {
+    font-style: italic;
+    }
+.content-top-info-list li:nth-child(4) {
+    text-transform: uppercase;
+    margin: 0 0 62px 0;
+   }
+   .content-top-info-list li:nth-child(6) {
+    z-index: 1;
+   }
+.content-bottom {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+.content-bottom-hover {
+    margin: 0 0 0 344px;
+    display: inline;
+}
+.content-bottom-press {
+    display: inline;
+    margin: 0 0 0 142px;
+}
+.content-bottom-info-link1 {
+    height: 44;
+	padding: 0 30px;
+    margin: 0 70px 0 20px;
+	display: inline-block;
+	line-height: 44px;
+	border-radius: 20px;
+	background-color: #80b7b3;
+	box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+}
+.content-bottom-info-link1:hover {
+	background-color: #3a5856;
+}
+.content-bottom-info-link1:active {
+	background-color: #818181;
+    box-shadow: 0px 6px 40px 0px #e8e8e8;
+}
+.content-bottom-info-link2 {
+    height: 44;
+	padding: 0 30px;
+    margin: 0 70px 0 20px;
+	display: inline-block;
+	line-height: 44px;
+	border-radius: 20px;
+	background-color: #3a5856;
+    box-shadow: 0px 6px 40px 0px rgba(128,183,179,0.54);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+}
+.content-bottom-info-link3 {
+    height: 44;
+	padding: 0 30px;
+    margin: 0 0 0 20px;
+	display: inline-block;
+	line-height: 44px;
+	border-radius: 20px;
+	background-color: #818181;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	color: #ffffff;
+    margin: 0 0 82px 20px;
+}
+.content-bottom-info-link {
+    background: url(../img/icons/shape.png) right no-repeat;
+    padding: 0 30px 0 0;
+}
+.content-bottom-focus {
+    margin: 0 0 0 372px;
+}
+.textinput {
+    width: 294px;
+    height: 52px;
+    border: 1px solid #b0b0b0;
+    margin: 0 74px 0 0;
+}
+.textinput:focus {
+    box-shadow: 0px 0px 20px -1px rgba(127,190,213,0.93);
+}
+.textinput1 {
+    width: 294px;
+    height: 52px;
+    border: 1px solid #7fbed5;
+    box-shadow: 0px 0px 20px -1px rgba(127,190,213,0.93);
+}
